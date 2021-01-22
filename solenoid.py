@@ -42,6 +42,9 @@ POS = np.array([(x, 0, z) for z in zs for x in xs])
 
 Bs = c.getB(POS).reshape(ptz, ptx, 3)  # <--automatically vectorized
 
+B_center = c.getB([4,0,0])
+print(B_center) 
+
 # create figure
 fig = plt.figure(figsize=(9, 5))
 ax1 = fig.add_subplot(121, projection='3d')  # 3D-axis
@@ -51,9 +54,13 @@ ax2 = fig.add_subplot(122)  # 2D-axis
 displaySystem(c, subplotAx=ax1, suppress=True)
 # display field in xz-plane using matplotlib
 X, Z = np.meshgrid(xs, zs)
-U, V = Bs[:, :, 0], Bs[:, :, 2]
+
+# Take components Bx and Bz 
+Bx, By, Bz = Bs[:, :, 0], Bs[:, :, 1], Bs[:, :, 2]
+
+
 
 # ax2.streamplot(X, Z, U, V, color=np.log(U**2 + V**2))
-b_map = ax2.streamplot(X, Z, U, V, color=np.sqrt(U**2 + V**2), cmap='autumn')
+b_map = ax2.streamplot(X, Z, Bx, Bz, color=np.sqrt(Bx**2 + By**2 + Bz**2), cmap='autumn')
 fig.colorbar(b_map.lines)
 plt.show()
