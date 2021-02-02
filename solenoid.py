@@ -6,8 +6,7 @@ from magpylib import Collection, displaySystem
 import create_bobine as bob
 import sys
 
-bob.heat_dissipated()
-sys.exit(0)
+
 '''
 Some plot settings
 '''
@@ -25,7 +24,7 @@ plt.rcParams['text.latex.preamble'] = [
 # Current in amps
 radius = 40.
 current = 20.
-n_coils = 6
+n_coils = 4
 distance = 2 * radius
 
 for i in range(1):
@@ -69,3 +68,5 @@ b_map = ax2.streamplot(X, Z, Bx, Bz, color=np.sqrt(
     Bx**2 + By**2 + Bz**2), cmap='autumn')
 fig.colorbar(b_map.lines)
 plt.show()
+
+bob.heat_dissipated()
