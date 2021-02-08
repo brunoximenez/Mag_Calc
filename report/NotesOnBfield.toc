@@ -1,3 +1,5 @@
 \babel@toc {english}{}
 \contentsline {section}{\numberline {1}{$\vec {B}$ field configuration study}}{2}{section.1}%
-\contentsline {section}{\numberline {2}{Heat dissipated on the coils}}{3}{section.2}%
+\contentsline {section}{\numberline {2}{Heat dissipated on the coils}}{5}{section.2}%
+\contentsline {section}{\numberline {3}{Zeeman effect on $^{87}$Rb}}{6}{section.3}%
+\contentsline {section}{\numberline {4}{Quantum state preparation -- Optical pumping}}{8}{section.4}%

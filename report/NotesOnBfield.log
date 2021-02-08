@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.12)  1 FEB 2021 09:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.1.12)  7 FEB 2021 22:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -280,7 +280,180 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 LaTeX Info: Redefining \[ on input line 2858.
 LaTeX Info: Redefining \] on input line 2859.
 )
-(./structure.tex
+(/usr/local/texlive/2019/texmf-dist/tex/latex/physics/physics.sty
+Package: physics 
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2019-11-07 L3 programming layer (loader) 
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2019-11-07 L3 programming layer (code)
+\c_max_int=\count106
+\l_tmpa_int=\count107
+\l_tmpb_int=\count108
+\g_tmpa_int=\count109
+\g_tmpb_int=\count110
+\l__seq_internal_a_int=\count111
+\l__seq_internal_b_int=\count112
+\g__kernel_prg_map_int=\count113
+\c__ior_term_noprompt_ior=\count114
+\c_log_iow=\count115
+\l_iow_line_count_int=\count116
+\l__iow_line_target_int=\count117
+\l__iow_one_indent_int=\count118
+\l__iow_indent_int=\count119
+\c_zero_dim=\dimen123
+\c_max_dim=\dimen124
+\l_tmpa_dim=\dimen125
+\l_tmpb_dim=\dimen126
+\g_tmpa_dim=\dimen127
+\g_tmpb_dim=\dimen128
+\c_zero_skip=\skip60
+\c_max_skip=\skip61
+\l_tmpa_skip=\skip62
+\l_tmpb_skip=\skip63
+\g_tmpa_skip=\skip64
+\g_tmpb_skip=\skip65
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+\l_keys_choice_int=\count120
+\l__intarray_loop_int=\count121
+\c__intarray_sp_dim=\dimen129
+\g__intarray_font_int=\count122
+\c__fp_leading_shift_int=\count123
+\c__fp_middle_shift_int=\count124
+\c__fp_trailing_shift_int=\count125
+\c__fp_big_leading_shift_int=\count126
+\c__fp_big_middle_shift_int=\count127
+\c__fp_big_trailing_shift_int=\count128
+\c__fp_Bigg_leading_shift_int=\count129
+\c__fp_Bigg_middle_shift_int=\count130
+\c__fp_Bigg_trailing_shift_int=\count131
+\c__kernel_randint_max_int=\count132
+\g__fp_array_int=\count133
+\l__fp_array_loop_int=\count134
+\l__sort_length_int=\count135
+\l__sort_min_int=\count136
+\l__sort_top_int=\count137
+\l__sort_max_int=\count138
+\l__sort_true_max_int=\count139
+\l__sort_block_int=\count140
+\l__sort_begin_int=\count141
+\l__sort_end_int=\count142
+\l__sort_A_int=\count143
+\l__sort_B_int=\count144
+\l__sort_C_int=\count145
+\l__str_internal_int=\count146
+\c__str_replacement_char_int=\count147
+\l__tl_analysis_normal_int=\count148
+\l__tl_analysis_index_int=\count149
+\l__tl_analysis_nesting_int=\count150
+\l__tl_analysis_type_int=\count151
+\l__regex_internal_a_int=\count152
+\l__regex_internal_b_int=\count153
+\l__regex_internal_c_int=\count154
+\l__regex_balance_int=\count155
+\l__regex_group_level_int=\count156
+\l__regex_mode_int=\count157
+\c__regex_cs_in_class_mode_int=\count158
+\c__regex_cs_mode_int=\count159
+\l__regex_catcodes_int=\count160
+\l__regex_default_catcodes_int=\count161
+\c__regex_catcode_D_int=\count162
+\c__regex_catcode_S_int=\count163
+\c__regex_catcode_L_int=\count164
+\c__regex_catcode_O_int=\count165
+\c__regex_catcode_A_int=\count166
+\c__regex_all_catcodes_int=\count167
+\l__regex_show_lines_int=\count168
+\l__regex_min_state_int=\count169
+\l__regex_max_state_int=\count170
+\l__regex_left_state_int=\count171
+\l__regex_right_state_int=\count172
+\l__regex_capturing_group_int=\count173
+\l__regex_min_pos_int=\count174
+\l__regex_max_pos_int=\count175
+\l__regex_curr_pos_int=\count176
+\l__regex_start_pos_int=\count177
+\l__regex_success_pos_int=\count178
+\l__regex_curr_char_int=\count179
+\l__regex_curr_catcode_int=\count180
+\l__regex_last_char_int=\count181
+\l__regex_case_changed_char_int=\count182
+\l__regex_curr_state_int=\count183
+\l__regex_step_int=\count184
+\l__regex_min_active_int=\count185
+\l__regex_max_active_int=\count186
+\l__regex_replacement_csnames_int=\count187
+\l__regex_match_count_int=\count188
+\l__regex_min_submatch_int=\count189
+\l__regex_submatch_int=\count190
+\l__regex_zeroth_submatch_int=\count191
+\g__regex_trace_regex_int=\count192
+\c_empty_box=\box31
+\l_tmpa_box=\box32
+\l_tmpb_box=\box33
+\g_tmpa_box=\box34
+\g_tmpb_box=\box35
+\l__box_top_dim=\dimen130
+\l__box_bottom_dim=\dimen131
+\l__box_left_dim=\dimen132
+\l__box_right_dim=\dimen133
+\l__box_top_new_dim=\dimen134
+\l__box_bottom_new_dim=\dimen135
+\l__box_left_new_dim=\dimen136
+\l__box_right_new_dim=\dimen137
+\l__box_internal_box=\box36
+\l__coffin_internal_box=\box37
+\l__coffin_internal_dim=\dimen138
+\l__coffin_offset_x_dim=\dimen139
+\l__coffin_offset_y_dim=\dimen140
+\l__coffin_x_dim=\dimen141
+\l__coffin_y_dim=\dimen142
+\l__coffin_x_prime_dim=\dimen143
+\l__coffin_y_prime_dim=\dimen144
+\c_empty_coffin=\box38
+\l__coffin_aligned_coffin=\box39
+\l__coffin_aligned_internal_coffin=\box40
+\l_tmpa_coffin=\box41
+\l_tmpb_coffin=\box42
+\g_tmpa_coffin=\box43
+\g_tmpb_coffin=\box44
+\l__coffin_bounding_shift_dim=\dimen145
+\l__coffin_left_corner_dim=\dimen146
+\l__coffin_right_corner_dim=\dimen147
+\l__coffin_bottom_corner_dim=\dimen148
+\l__coffin_top_corner_dim=\dimen149
+\l__coffin_scaled_total_height_dim=\dimen150
+\l__coffin_scaled_width_dim=\dimen151
+\c__coffin_empty_coffin=\box45
+\l__coffin_display_coffin=\box46
+\l__coffin_display_coord_coffin=\box47
+\l__coffin_display_pole_coffin=\box48
+\l__coffin_display_offset_dim=\dimen152
+\l__coffin_display_x_dim=\dimen153
+\l__coffin_display_y_dim=\dimen154
+\g__char_data_ior=\read1
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/l3deprecation.def
+File: l3deprecation.def 2019-04-06 v L3 Deprecated functions
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2019-04-06 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count193
+\l__pdf_internal_box=\box49
+))
+Package: xparse 2019-10-11 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count194
+\g__xparse_grabber_int=\count195
+\l__xparse_m_args_int=\count196
+\l__xparse_v_nesting_int=\count197
+)) (./structure.tex
 (/usr/local/texlive/2019/texmf-dist/tex/latex/classicthesis/classicthesis.sty
 Package: classicthesis 2018/06/03 v4.6 Typographic style for a classic-looking 
 thesis
@@ -350,18 +523,18 @@ File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
 \MT@toks=\toks23
-\MT@count=\count106
+\MT@count=\count198
 LaTeX Info: Redefining \textls on input line 790.
-\MT@outer@kern=\dimen123
+\MT@outer@kern=\dimen155
 LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
-\MT@listname@count=\count107
+\MT@listname@count=\count199
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 914.
 LaTeX Info: Redefining \lslig on input line 914.
-\MT@outer@space=\skip60
+\MT@outer@space=\skip66
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -391,23 +564,23 @@ Package: mparhack 2005/04/17 v1.4 (T. Sgouros and S. Ulrich)
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2019/10/08 v1.6180339 publication quality tables
-\heavyrulewidth=\dimen124
-\lightrulewidth=\dimen125
-\cmidrulewidth=\dimen126
-\belowrulesep=\dimen127
-\belowbottomsep=\dimen128
-\aboverulesep=\dimen129
-\abovetopsep=\dimen130
-\cmidrulesep=\dimen131
-\cmidrulekern=\dimen132
-\defaultaddspace=\dimen133
-\@cmidla=\count108
-\@cmidlb=\count109
-\@aboverulesep=\dimen134
-\@belowrulesep=\dimen135
-\@thisruleclass=\count110
-\@lastruleclass=\count111
-\@thisrulewidth=\dimen136
+\heavyrulewidth=\dimen156
+\lightrulewidth=\dimen157
+\cmidrulewidth=\dimen158
+\belowrulesep=\dimen159
+\belowbottomsep=\dimen160
+\aboverulesep=\dimen161
+\abovetopsep=\dimen162
+\cmidrulesep=\dimen163
+\cmidrulekern=\dimen164
+\defaultaddspace=\dimen165
+\@cmidla=\count266
+\@cmidlb=\count267
+\@aboverulesep=\dimen166
+\@belowrulesep=\dimen167
+\@thisruleclass=\count268
+\@lastruleclass=\count269
+\@thisrulewidth=\dimen168
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
@@ -441,15 +614,15 @@ Package scrlayer-scrpage Info: auto-selection of `pagestyleset=KOMA-Script'.
 1: subsection
 (/usr/local/texlive/2019/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box31
-\beforetitleunit=\skip61
-\aftertitleunit=\skip62
-\ttl@plus=\dimen137
-\ttl@minus=\dimen138
+\ttl@box=\box50
+\beforetitleunit=\skip67
+\aftertitleunit=\skip68
+\ttl@plus=\dimen169
+\ttl@minus=\dimen170
 \ttl@toksa=\toks24
-\titlewidth=\dimen139
-\titlewidthlast=\dimen140
-\titlewidthfirst=\dimen141
+\titlewidth=\dimen171
+\titlewidthlast=\dimen172
+\titlewidthfirst=\dimen173
 
 
 Package titlesec Warning: Non standard sectioning command \section
@@ -499,45 +672,45 @@ Class scrartcl Warning: Usage of package `tocloft' together
 (/usr/local/texlive/2019/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 51.
-\cftparskip=\skip63
-\cftbeforetoctitleskip=\skip64
-\cftaftertoctitleskip=\skip65
-\cftbeforepartskip=\skip66
-\cftpartnumwidth=\skip67
-\cftpartindent=\skip68
-\cftbeforesecskip=\skip69
-\cftsecindent=\skip70
-\cftsecnumwidth=\skip71
-\cftbeforesubsecskip=\skip72
-\cftsubsecindent=\skip73
-\cftsubsecnumwidth=\skip74
-\cftbeforesubsubsecskip=\skip75
-\cftsubsubsecindent=\skip76
-\cftsubsubsecnumwidth=\skip77
-\cftbeforeparaskip=\skip78
-\cftparaindent=\skip79
-\cftparanumwidth=\skip80
-\cftbeforesubparaskip=\skip81
-\cftsubparaindent=\skip82
-\cftsubparanumwidth=\skip83
-\cftbeforeloftitleskip=\skip84
-\cftafterloftitleskip=\skip85
-\cftbeforefigskip=\skip86
-\cftfigindent=\skip87
-\cftfignumwidth=\skip88
-\c@lofdepth=\count112
-\c@lotdepth=\count113
-\cftbeforelottitleskip=\skip89
-\cftafterlottitleskip=\skip90
-\cftbeforetabskip=\skip91
-\cfttabindent=\skip92
-\cfttabnumwidth=\skip93
+\cftparskip=\skip69
+\cftbeforetoctitleskip=\skip70
+\cftaftertoctitleskip=\skip71
+\cftbeforepartskip=\skip72
+\cftpartnumwidth=\skip73
+\cftpartindent=\skip74
+\cftbeforesecskip=\skip75
+\cftsecindent=\skip76
+\cftsecnumwidth=\skip77
+\cftbeforesubsecskip=\skip78
+\cftsubsecindent=\skip79
+\cftsubsecnumwidth=\skip80
+\cftbeforesubsubsecskip=\skip81
+\cftsubsubsecindent=\skip82
+\cftsubsubsecnumwidth=\skip83
+\cftbeforeparaskip=\skip84
+\cftparaindent=\skip85
+\cftparanumwidth=\skip86
+\cftbeforesubparaskip=\skip87
+\cftsubparaindent=\skip88
+\cftsubparanumwidth=\skip89
+\cftbeforeloftitleskip=\skip90
+\cftafterloftitleskip=\skip91
+\cftbeforefigskip=\skip92
+\cftfigindent=\skip93
+\cftfignumwidth=\skip94
+\c@lofdepth=\count270
+\c@lotdepth=\count271
+\cftbeforelottitleskip=\skip95
+\cftafterlottitleskip=\skip96
+\cftbeforetabskip=\skip97
+\cfttabindent=\skip98
+\cfttabnumwidth=\skip99
 )
-\newnumberwidth=\skip94
-\beforebibskip=\skip95
-\newchnumberwidth=\skip96
-\figurelabelwidth=\skip97
-\tablelabelwidth=\skip98
+\newnumberwidth=\skip100
+\beforebibskip=\skip101
+\newchnumberwidth=\skip102
+\figurelabelwidth=\skip103
+\tablelabelwidth=\skip104
 
 Using KOMA-command "deffootnote" for footnote setup
 (/usr/local/texlive/2019/texmf-dist/tex/latex/koma-script/scrtime.sty
@@ -549,18 +722,18 @@ Package: caption 2020/01/03 v3.4h Customizing captions (AR)
 (/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen142
-\captionmargin@=\dimen143
-\captionwidth=\dimen144
-\caption@tempdima=\dimen145
-\caption@indent=\dimen146
-\caption@parindent=\dimen147
-\caption@hangindent=\dimen148
+\captionmargin=\dimen174
+\captionmargin@=\dimen175
+\captionwidth=\dimen176
+\caption@tempdima=\dimen177
+\caption@indent=\dimen178
+\caption@parindent=\dimen179
+\caption@hangindent=\dimen180
 Package caption Info: KOMA-Script document class detected.
 )
 Package caption Info: KOMA-Script document class.
-\c@caption@flags=\count114
-\c@continuedfloat=\count115
+\c@caption@flags=\count272
+\c@continuedfloat=\count273
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/carlisle/remreset.sty
 
@@ -602,9 +775,9 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 (/usr/local/texlive/2019/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen149
-\Hy@linkcounter=\count116
-\Hy@pagecounter=\count117
+\@linkdim=\dimen181
+\Hy@linkcounter=\count274
+\Hy@pagecounter=\count275
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2019/11/10 v7.00c Hyperref: PDFDocEncoding definition (HO)
@@ -617,7 +790,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (/usr/local/texlive/2019/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count118
+\Hy@SavedSpaceFactor=\count276
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -630,14 +803,14 @@ Package hyperref Info: Plain pages OFF on input line 4550.
 Package hyperref Info: Backreferencing OFF on input line 4555.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4788.
-\c@Hy@tempcnt=\count119
+\c@Hy@tempcnt=\count277
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip11
+\Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5147.
-\XeTeXLinkMargin=\dimen150
+\XeTeXLinkMargin=\dimen182
 
 (/usr/local/texlive/2019/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -646,9 +819,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count120
-\Field@Width=\dimen151
-\Fld@charsize=\dimen152
+\Fld@menulength=\count278
+\Field@Width=\dimen183
+\Fld@charsize=\dimen184
 Package hyperref Info: Hyper figures OFF on input line 6418.
 Package hyperref Info: Link nesting OFF on input line 6423.
 Package hyperref Info: Hyper index ON on input line 6426.
@@ -662,8 +835,8 @@ LaTeX Info: Redefining \pageref on input line 6492.
 (/usr/local/texlive/2019/texmf-dist/tex/generic/atbegshi/atbegshi.sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count121
-\c@Item=\count122
+\Hy@abspage=\count279
+\c@Item=\count280
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -674,8 +847,8 @@ File: hpdftex.def 2019/11/10 v7.00c Hyperref driver for pdfTeX
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
 )
-\Fld@listcount=\count123
-\c@bookmark@seq@number=\count124
+\Fld@listcount=\count281
+\c@bookmark@seq@number=\count282
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
@@ -686,7 +859,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip99
+\Hy@SectionHShift=\skip105
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 679.
 Package hyperref Info: Option `linktocpage' set `true' on input line 679.
@@ -738,184 +911,14 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
 (/usr/local/texlive/2019/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip100
-\enit@outerparindent=\dimen153
+\labelindent=\skip106
+\enit@outerparindent=\dimen185
 \enit@toks=\toks25
-\enit@inbox=\box32
-\enit@count@id=\count125
-\enitdp@description=\count126
+\enit@inbox=\box51
+\enit@count@id=\count283
+\enitdp@description=\count284
 )
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.sty
-(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2019-11-07 L3 programming layer (loader) 
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/expl3-code.tex
-Package: expl3 2019-11-07 L3 programming layer (code)
-\c_max_int=\count127
-\l_tmpa_int=\count128
-\l_tmpb_int=\count129
-\g_tmpa_int=\count130
-\g_tmpb_int=\count131
-\l__seq_internal_a_int=\count132
-\l__seq_internal_b_int=\count133
-\g__kernel_prg_map_int=\count134
-\c__ior_term_noprompt_ior=\count135
-\c_log_iow=\count136
-\l_iow_line_count_int=\count137
-\l__iow_line_target_int=\count138
-\l__iow_one_indent_int=\count139
-\l__iow_indent_int=\count140
-\c_zero_dim=\dimen154
-\c_max_dim=\dimen155
-\l_tmpa_dim=\dimen156
-\l_tmpb_dim=\dimen157
-\g_tmpa_dim=\dimen158
-\g_tmpb_dim=\dimen159
-\c_zero_skip=\skip101
-\c_max_skip=\skip102
-\l_tmpa_skip=\skip103
-\l_tmpb_skip=\skip104
-\g_tmpa_skip=\skip105
-\g_tmpb_skip=\skip106
-\c_zero_muskip=\muskip12
-\c_max_muskip=\muskip13
-\l_tmpa_muskip=\muskip14
-\l_tmpb_muskip=\muskip15
-\g_tmpa_muskip=\muskip16
-\g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count141
-\l__intarray_loop_int=\count142
-\c__intarray_sp_dim=\dimen160
-\g__intarray_font_int=\count143
-\c__fp_leading_shift_int=\count144
-\c__fp_middle_shift_int=\count145
-\c__fp_trailing_shift_int=\count146
-\c__fp_big_leading_shift_int=\count147
-\c__fp_big_middle_shift_int=\count148
-\c__fp_big_trailing_shift_int=\count149
-\c__fp_Bigg_leading_shift_int=\count150
-\c__fp_Bigg_middle_shift_int=\count151
-\c__fp_Bigg_trailing_shift_int=\count152
-\c__kernel_randint_max_int=\count153
-\g__fp_array_int=\count154
-\l__fp_array_loop_int=\count155
-\l__sort_length_int=\count156
-\l__sort_min_int=\count157
-\l__sort_top_int=\count158
-\l__sort_max_int=\count159
-\l__sort_true_max_int=\count160
-\l__sort_block_int=\count161
-\l__sort_begin_int=\count162
-\l__sort_end_int=\count163
-\l__sort_A_int=\count164
-\l__sort_B_int=\count165
-\l__sort_C_int=\count166
-\l__str_internal_int=\count167
-\c__str_replacement_char_int=\count168
-\l__tl_analysis_normal_int=\count169
-\l__tl_analysis_index_int=\count170
-\l__tl_analysis_nesting_int=\count171
-\l__tl_analysis_type_int=\count172
-\l__regex_internal_a_int=\count173
-\l__regex_internal_b_int=\count174
-\l__regex_internal_c_int=\count175
-\l__regex_balance_int=\count176
-\l__regex_group_level_int=\count177
-\l__regex_mode_int=\count178
-\c__regex_cs_in_class_mode_int=\count179
-\c__regex_cs_mode_int=\count180
-\l__regex_catcodes_int=\count181
-\l__regex_default_catcodes_int=\count182
-\c__regex_catcode_D_int=\count183
-\c__regex_catcode_S_int=\count184
-\c__regex_catcode_L_int=\count185
-\c__regex_catcode_O_int=\count186
-\c__regex_catcode_A_int=\count187
-\c__regex_all_catcodes_int=\count188
-\l__regex_show_lines_int=\count189
-\l__regex_min_state_int=\count190
-\l__regex_max_state_int=\count191
-\l__regex_left_state_int=\count192
-\l__regex_right_state_int=\count193
-\l__regex_capturing_group_int=\count194
-\l__regex_min_pos_int=\count195
-\l__regex_max_pos_int=\count196
-\l__regex_curr_pos_int=\count197
-\l__regex_start_pos_int=\count198
-\l__regex_success_pos_int=\count199
-\l__regex_curr_char_int=\count266
-\l__regex_curr_catcode_int=\count267
-\l__regex_last_char_int=\count268
-\l__regex_case_changed_char_int=\count269
-\l__regex_curr_state_int=\count270
-\l__regex_step_int=\count271
-\l__regex_min_active_int=\count272
-\l__regex_max_active_int=\count273
-\l__regex_replacement_csnames_int=\count274
-\l__regex_match_count_int=\count275
-\l__regex_min_submatch_int=\count276
-\l__regex_submatch_int=\count277
-\l__regex_zeroth_submatch_int=\count278
-\g__regex_trace_regex_int=\count279
-\c_empty_box=\box33
-\l_tmpa_box=\box34
-\l_tmpb_box=\box35
-\g_tmpa_box=\box36
-\g_tmpb_box=\box37
-\l__box_top_dim=\dimen161
-\l__box_bottom_dim=\dimen162
-\l__box_left_dim=\dimen163
-\l__box_right_dim=\dimen164
-\l__box_top_new_dim=\dimen165
-\l__box_bottom_new_dim=\dimen166
-\l__box_left_new_dim=\dimen167
-\l__box_right_new_dim=\dimen168
-\l__box_internal_box=\box38
-\l__coffin_internal_box=\box39
-\l__coffin_internal_dim=\dimen169
-\l__coffin_offset_x_dim=\dimen170
-\l__coffin_offset_y_dim=\dimen171
-\l__coffin_x_dim=\dimen172
-\l__coffin_y_dim=\dimen173
-\l__coffin_x_prime_dim=\dimen174
-\l__coffin_y_prime_dim=\dimen175
-\c_empty_coffin=\box40
-\l__coffin_aligned_coffin=\box41
-\l__coffin_aligned_internal_coffin=\box42
-\l_tmpa_coffin=\box43
-\l_tmpb_coffin=\box44
-\g_tmpa_coffin=\box45
-\g_tmpb_coffin=\box46
-\l__coffin_bounding_shift_dim=\dimen176
-\l__coffin_left_corner_dim=\dimen177
-\l__coffin_right_corner_dim=\dimen178
-\l__coffin_bottom_corner_dim=\dimen179
-\l__coffin_top_corner_dim=\dimen180
-\l__coffin_scaled_total_height_dim=\dimen181
-\l__coffin_scaled_width_dim=\dimen182
-\c__coffin_empty_coffin=\box47
-\l__coffin_display_coffin=\box48
-\l__coffin_display_coord_coffin=\box49
-\l__coffin_display_pole_coffin=\box50
-\l__coffin_display_offset_dim=\dimen183
-\l__coffin_display_x_dim=\dimen184
-\l__coffin_display_y_dim=\dimen185
-\g__char_data_ior=\read1
-
-(/usr/local/texlive/2019/texmf-dist/tex/latex/l3kernel/l3deprecation.def
-File: l3deprecation.def 2019-04-06 v L3 Deprecated functions
-))
-(/usr/local/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2019-04-06 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count280
-\l__pdf_internal_box=\box51
-)) (/usr/local/texlive/2019/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2019-10-11 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count281
-\g__xparse_grabber_int=\count282
-\l__xparse_m_args_int=\count283
-\l__xparse_v_nesting_int=\count284
-)
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
@@ -984,23 +987,23 @@ Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 74.
 ) (./NotesOnBfield.aux)
 \openout1 = `NotesOnBfield.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-Package scrbase Info: activating english \contentsname on input line 40.
-Package scrbase Info: activating english \listfigurename on input line 40.
-Package scrbase Info: activating english \listtablename on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+Package scrbase Info: activating english \contentsname on input line 41.
+Package scrbase Info: activating english \listfigurename on input line 41.
+Package scrbase Info: activating english \listtablename on input line 41.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1058,7 +1061,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 40.
+LaTeX Info: Redefining \microtypecontext on input line 41.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1075,7 +1078,7 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box53
-Package hyperref Info: Link coloring ON on input line 40.
+Package hyperref Info: Link coloring ON on input line 41.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1090,14 +1093,14 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 \c@section@level=\count300
 LaTeX Info: Redefining \Ref on input line 520.
 )
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
+LaTeX Info: Redefining \ref on input line 41.
+LaTeX Info: Redefining \pageref on input line 41.
+LaTeX Info: Redefining \nameref on input line 41.
  (./NotesOnBfield.out) (./NotesOnBfield.out)
 \@outlinefile=\write4
 \openout4 = `NotesOnBfield.out'.
 
-LaTeX Info: Redefining \Ref on input line 40.
+LaTeX Info: Redefining \Ref on input line 41.
 Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           Using `bookmark' together with `hyperref' is recommended,
 (scrartcl)           because of handling of possible bookmark level gaps.
@@ -1105,7 +1108,7 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 40.
+(scrartcl)           before \begin{document} on input line 41.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2019/12/03 v1.28 PDF bookmarks (HO)
@@ -1118,7 +1121,7 @@ e 168.
 \BKM@id=\count301
 ))
 LaTeX Font Info:    Trying to load font information for T1+iwona on input line 
-59.
+60.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/iwona/t1iwona.fd
 File: t1iwona.fd 2008/07/22 v0.995 font definition file for T1/iwona (MW)
@@ -1128,16 +1131,16 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/iwona/bx/n' in size <10> not available
-(Font)              Font shape `T1/iwona/b/n' tried instead on input line 59.
+(Font)              Font shape `T1/iwona/b/n' tried instead on input line 60.
 LaTeX Font Info:    Font shape `T1/iwona/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/iwona/b/n' tried instead on input line 59.
+(Font)              Font shape `T1/iwona/b/n' tried instead on input line 60.
 LaTeX Font Info:    Trying to load font information for OT1+pplj on input line 
-59.
+60.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1pplj.fd
 File: ot1pplj.fd 2004/09/06 font definitions for OT1/pplj.
 )
-LaTeX Font Info:    Trying to load font information for U+zeur on input line 59
+LaTeX Font Info:    Trying to load font information for U+zeur on input line 60
 .
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/eulervm/uzeur.fd
@@ -1146,7 +1149,7 @@ File: uzeur.fd 2005/01/11 v4.0 (WaS)
 (/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+zeus on input line 59
+LaTeX Font Info:    Trying to load font information for U+zeus on input line 60
 .
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/eulervm/uzeus.fd
@@ -1155,14 +1158,14 @@ File: uzeus.fd 2005/01/11 v4.0 (WaS)
 (/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-eus.cfg
 File: mt-eus.cfg 2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+zeuex on input line 5
-9.
+LaTeX Font Info:    Trying to load font information for U+zeuex on input line 6
+0.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/eulervm/uzeuex.fd
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-59.
+60.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
@@ -1178,7 +1181,7 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 (/usr/local/texlive/2019/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
-Package tocbasic Info: character protrusion at toc deactivated on input line 62
+Package tocbasic Info: character protrusion at toc deactivated on input line 63
 .
 
 (./NotesOnBfield.toc
@@ -1191,7 +1194,7 @@ LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10> not available
 \tf@toc=\write5
 \openout5 = `NotesOnBfield.toc'.
 
-Package tocbasic Info: character protrusion at lof deactivated on input line 64
+Package tocbasic Info: character protrusion at lof deactivated on input line 65
 .
  (./NotesOnBfield.lof
 Overfull \hbox (0.71889pt too wide) in paragraph at lines 4--4
@@ -1199,11 +1202,17 @@ Overfull \hbox (0.71889pt too wide) in paragraph at lines 4--4
 s when 
  []
 
+
+Overfull \hbox (66.01459pt too wide) in paragraph at lines 8--8
+ [][] []\T1/pplj/m/n/10 Optical pump-ing scheme to ini-tial-ize the qubits in t
+he $[]$ 
+ []
+
 )
 \tf@lof=\write6
 \openout6 = `NotesOnBfield.lof'.
 
-Package tocbasic Info: character protrusion at lot deactivated on input line 66
+Package tocbasic Info: character protrusion at lot deactivated on input line 67
 .
  (./NotesOnBfield.lot)
 \tf@lot=\write7
@@ -1219,75 +1228,117 @@ Package microtype Info: Character `029' is missing
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 70.
+(hyperref)                removing `math shift' on input line 71.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 70.
+(hyperref)                removing `math shift' on input line 71.
 
-<Figures/XZplane_6turns_20amps_radius40mm_d80.png, id=28, 935.8965pt x 541.3023
+<Figures/XZplane_6turns_20amps_radius40mm_d80.png, id=39, 935.8965pt x 541.3023
 pt>
 File: Figures/XZplane_6turns_20amps_radius40mm_d80.png Graphic file (type png)
 <use Figures/XZplane_6turns_20amps_radius40mm_d80.png>
 Package pdftex.def Info: Figures/XZplane_6turns_20amps_radius40mm_d80.png  used
- on input line 78.
+ on input line 79.
 (pdftex.def)             Requested size: 370.0pt x 213.99791pt.
 LaTeX Font Info:    Font shape `T1/iwona/bx/n' in size <9> not available
-(Font)              Font shape `T1/iwona/b/n' tried instead on input line 80.
-<Figures/varying_distance_between_coils.png, id=31, 640.67355pt x 544.1931pt>
+(Font)              Font shape `T1/iwona/b/n' tried instead on input line 81.
+<Figures/varying_distance_between_coils.png, id=42, 640.67355pt x 544.1931pt>
 File: Figures/varying_distance_between_coils.png Graphic file (type png)
 <use Figures/varying_distance_between_coils.png>
 Package pdftex.def Info: Figures/varying_distance_between_coils.png  used on in
-put line 89.
+put line 90.
 (pdftex.def)             Requested size: 370.0pt x 314.287pt.
-<Figures/Tilted_coil_10Deg.png, id=34, 854.9541pt x 482.0409pt>
+<Figures/Tilted_coil_10Deg.png, id=45, 854.9541pt x 482.0409pt>
 File: Figures/Tilted_coil_10Deg.png Graphic file (type png)
 <use Figures/Tilted_coil_10Deg.png>
-Package pdftex.def Info: Figures/Tilted_coil_10Deg.png  used on input line 98.
+Package pdftex.def Info: Figures/Tilted_coil_10Deg.png  used on input line 99.
 (pdftex.def)             Requested size: 370.0pt x 208.61221pt.
-<Figures/TiltedCoil10Deg_B.png, id=35, 615.0177pt x 435.7881pt>
+<Figures/TiltedCoil10Deg_B.png, id=46, 615.0177pt x 435.7881pt>
 File: Figures/TiltedCoil10Deg_B.png Graphic file (type png)
 <use Figures/TiltedCoil10Deg_B.png>
-Package pdftex.def Info: Figures/TiltedCoil10Deg_B.png  used on input line 105.
+Package pdftex.def Info: Figures/TiltedCoil10Deg_B.png  used on input line 106.
 
 (pdftex.def)             Requested size: 370.0pt x 262.17972pt.
 [2 <./Figures/XZplane_6turns_20amps_radius40mm_d80.png>] [3 <./Figures/varying_
-distance_between_coils.png>] [4 <./Figures/Tilted_coil_10Deg.png> <./Figures/Ti
-ltedCoil10Deg_B.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 140.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 140.
- (./NotesOnBfield.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 140.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 140.
+distance_between_coils.png> <./Figures/Tilted_coil_10Deg.png>] [4 <./Figures/Ti
+ltedCoil10Deg_B.png>] [5
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 143.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 143.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 143.
+
+
+Overfull \hbox (61.99117pt too wide) in paragraph at lines 206--207
+[]\T1/pplj/m/n/10 If we con-sider the qubit tran-si-tion, for ex-am-ple, $[]$ $
+\U/zeus/m/n/10 !$ $[]$\T1/pplj/m/n/10 ,
+ []
+
+[6
+
+]
+<Figures/Zeeman_shift.png, id=87, 574.5465pt x 421.3341pt>
+File: Figures/Zeeman_shift.png Graphic file (type png)
+<use Figures/Zeeman_shift.png>
+Package pdftex.def Info: Figures/Zeeman_shift.png  used on input line 211.
+(pdftex.def)             Requested size: 370.0pt x 271.33731pt.
+ [7 <./Figures/Zeeman_shift.png>]
+<Figures/OpticalPumpingScheme.png, id=95, 513.92pt x 525.965pt>
+File: Figures/OpticalPumpingScheme.png Graphic file (type png)
+<use Figures/OpticalPumpingScheme.png>
+Package pdftex.def Info: Figures/OpticalPumpingScheme.png  used on input line 2
+27.
+(pdftex.def)             Requested size: 296.00113pt x 302.94115pt.
+ [8
+
+ <./Figures/OpticalPumpingScheme.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 238.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 238.
+
+(./NotesOnBfield.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 238.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 238.
 Package rerunfilecheck Info: File `NotesOnBfield.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 140.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 238.
  ) 
 Here is how much of TeX's memory you used:
- 27867 strings out of 492163
- 526662 string characters out of 6125291
- 906320 words of memory out of 5000000
- 31802 multiletter control sequences out of 15000+600000
- 623189 words of font info for 143 fonts, out of 8000000 for 9000
+ 28541 strings out of 492163
+ 533426 string characters out of 6125291
+ 920874 words of memory out of 5000000
+ 32437 multiletter control sequences out of 15000+600000
+ 638201 words of font info for 183 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 64i,23n,89p,10108b,620s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,23n,89p,10108b,620s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/iwona/ec-iwona.enc}{/usr/
 local/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/texlive/2
 019/texmf-dist/fonts/enc/dvips/iwona/ec-iwona-sc.enc}</usr/local/texlive/2019/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/tex
-mf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texlive/2019/t
-exmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb></usr/local/texlive/2019/
-texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/201
-9/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></usr/local/texlive/20
-19/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2019/texmf
--dist/fonts/type1/nowacki/iwona/iwonab.pfb></usr/local/texlive/2019/texmf-dist/
-fonts/type1/nowacki/iwona/iwonar.pfb></usr/local/texlive/2019/texmf-dist/fonts/
-type1/urw/palatino/uplr8a.pfb>
-Output written on NotesOnBfield.pdf (4 pages, 1362669 bytes).
+exmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2019/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2019/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2019/texm
+f-dist/fonts/type1/public/amsfonts/euler/euex10.pfb></usr/local/texlive/2019/te
+xmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texlive/2019/
+texmf-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb></usr/local/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/20
+19/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></usr/local/texlive/2
+019/texmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/local/texlive
+/2019/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2019/te
+xmf-dist/fonts/type1/nowacki/iwona/iwonab.pfb></usr/local/texlive/2019/texmf-di
+st/fonts/type1/nowacki/iwona/iwonar.pfb></usr/local/texlive/2019/texmf-dist/fon
+ts/type1/urw/palatino/uplr8a.pfb>
+Output written on NotesOnBfield.pdf (8 pages, 1551132 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
- 14 named destinations out of 1000 (max. 500000)
- 27685 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 168 PDF objects out of 1000 (max. 8388607)
+ 131 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 31807 words of extra memory for PDF output out of 35830 (max. 10000000)
 

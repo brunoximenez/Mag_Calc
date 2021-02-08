@@ -22,6 +22,7 @@ BCOR5mm, % Binding correction
 \usepackage{graphics,graphicx}
 \graphicspath{ {./figures/} }
 \usepackage{amsmath}
+\usepackage{physics}
 
 \input{structure.tex} % Include the structure.tex file which specified the document structure and layout
 
@@ -110,6 +111,7 @@ Next I tilt the one of the coils by about 10 degrees. On figure \ref{tilted_coil
 
 We can conclude that we don't need to worry too much about the exact geometry of the solenoid for homogenous magnetic field at the level of $\mu$T (or better than 0.1 Gauss), in this approximation and in the trapping region of about 0.15 mm. 
 
+\clearpage
 \newpage
 
 \section{Heat dissipated on the coils}
@@ -136,6 +138,101 @@ The power dissipated is just $RI^{2}$ and as a scaling law:
 If we want to dissipate as minimum heat as we can, thicker wire and maximize the number of turns in the solenoid is desired. If the number of turn in the solenoid is increased by a factor of f then the dissipated power is reduced by a fact of f. Considering a 1.5 mm radius wire and $\rho_{copper} = 0.0171$ $\Omega$ mm $^{2}$/m, and a solenoid with 4 turns, that gives a total lentgh of about 1 m, a total resistance of about 2 m$\Omega$ and $I = 20$ A, then 1 W will be dissipated as heat on each solenoid.
 
 
+\clearpage
+\newpage
 \section{Zeeman effect on $^{87}$Rb}
+We turn now our attention to the calculation of the Zeeman shift on the energy levels of $^{87}$Rb. Two Hamiltonians will be of relevance: the hyperfine strutcture and the Zeeman effect. The hyperfine structure is simply given by:
+
+\begin{equation}
+    \mathcal{H}_{hfs} = A_{hfs} \vec{I} \cdot \vec{J} + B_{hfs} \frac{ 3 (\vec{I} \cdot \vec{J})^{2} + 3 \vec{I} \cdot \vec{J}/2 - I(I+1)J(J+1)}{2I(2I-1)J(2J-1)}
+\end{equation}
+
+The quantum numbers are the total angular momentum of the atom which, for a hydrogen-like system, would be just the several angular momentum of the outter electron. The above expression can be written in a simpler manner from the calculation point of view:
+
+\begin{equation}
+    \mathcal{H}_{hfs} = \frac{1}{2}A_{hfs} K + B_{hfs} \frac{ 3/2 K(K+1) - 2I(I+1)J(J+1)}{4I(2I-1)J(2J-1)}
+\end{equation}
+with $K = F(F+1) - I(I+1) - J(J+1)$. For the ground state 5S$_{1/2}$, only the first term is relvant and for this specific isotope, $I=3/2$. The usual quantum mechanics relation remains: $F = J + I$, $J = L + S$. For the ground state, there are two hyperfines levels, $F=1,2$ with the respective Zeeman sublevels that are degenerated for zero magnetic field. The hyperfine splitting can be calculated by extracting the eigenvalues of the Hamiltonian with the values:
+
+\begin{center}
+ \begin{tabular}{||c c c||} 
+ \hline
+ Magnetic dipole constant & A$_{5S_{1/2}}$ &  3.417 341 305 452 15(5) GHz  \\ 
+ \hline
+ Magnetic dipole constant & A$_{5P_{1/2}}$ &  408.328(15) MHz \\ 
+ \hline
+  Magnetic dipole constant & A$_{5P_{3/2}}$ &  84.7185(20) MHz \\ 
+  \hline
+  Electric Quadrupole constant & B$_{5P_{3/2}}$ &  12.4965(37) MHz \\ [1ex] 
+ \hline
+\end{tabular}
+\end{center}
+
+The ground state splitting is about 6.8 GHz. We now include in the Hamiltonian the contribution due to a non-zero magnetic field and for energy shift that are smaller than the fine structure splitting:
+
+\begin{equation} \label{hz_high_field}
+    \mathcal{H}_{z} = \mu_{B}B_{0} (g_{j} J_{z} + g_{I} I_{z})
+\end{equation}
+
+with, 
+
+\begin{equation}
+    g_{J} \sim 1 + \frac{J(J+1) + S(S+1) - L(L+1)}{2J(J+1)}
+\end{equation}
+
+For the condition where the Zeeman shift of the Zeeman sublevels is small compared to the hyperfine splitting between $F=2$ and $F=1$, we can consider these two level as being independent (or not mixed) and the calculation can be approximated to:
+
+\begin{equation}
+    \mathcal{H}_{z} = \mu_{B}B_{0} g_{f} m_{z}
+\end{equation}
+
+with,
+
+\begin{equation}
+    g_{F} \sim g{J} \frac{F(F+1) - I(I+1) + J(J+1)}{2F(F+1)}
+\end{equation}
+
+In this approximation, 
+
+$$
+\Delta\mathcal{E}_{z} = \left\{
+    \begin{array}{ll}
+        7 m_{f} \textrm{ MHz / mT}, F = 2 \\
+        - 7 m_{f} \textrm{ MHz / mT}, F = 1
+    \end{array}
+\right.
+$$
+
+If we consider the qubit transition, for example, $\ket{5S_{1/2}, F=1, m_{f}=1}$ $\rightarrow$ $\ket{5S_{1/2}, F=2, m_{f}=2}$, this transition will be shifted by 21 MHz/mT. On the $\mu$T regime, this is about 21 kHz. 
+
+Considering higher fields, then the Zeeman Hamiltonian will mix the states of F = 2 and F = 1 with the same m$_{f}$. In this case, we use the expression \ref{hz_high_field} and diagonalize $\mathcal{H}_{hfs} + \mathcal{H}_{z}$. On figure \ref{ZeemanShift_5S} the levels are displayed as a function of the magnetic field. We can see that, by considering the mix between the quantum states with different F's, the states with $m_{f} = 0$ starts to being shifted by the magnetic field at the level of 100 mT.
+
+\begin{figure}[t]
+    \includegraphics[width=\linewidth]{Zeeman_shift}
+    \centering
+    \caption{Energy levels of the 5S$_{1/2}$ level in a magnetic field.}
+    \label{ZeemanShift_5S}
+\end{figure}
+
+\clearpage
+\newpage
+
+\section{Quantum state preparation -- Optical pumping}
+
+The goal is to initialize the qubits in a given state. Considering optical pumping techniques, it is chosen to prepare the atoms in the state $\ket{5S_{1/2}, F,m_{f} = 2,2}$ and the pumping scheme is shown on figure \ref{OpticalPumping}. The experiment starts with the atoms populating all the Zeeman levels in the ground hyperfine states. The optical pumping laser at 780 nm is prepared such that it addresses $\sigma^{+}$ transitions from $\ket{5S_{1/2}, F=2}$ $\rightarrow$ $\ket{5P_{3/2}, F=2}$ with $\Delta m_{f} = +1$. In this way, when the an atom populate the level $\ket{5S_{1/2}, F=2, m_{f}=2}$, the laser-atom interaction is stopped, avoiding unneccessary heating. 
+
+The atoms initially populated in the $\ket{5S_{1/2}, F=1}$ are not excited by the optical pumping laser, being off resonance. In order to pump those atoms into the deired state, a repumper laser is used to pump those atoms in the $\ket{5P_{3/2}, F=2}$ and then they eventually decay to $\ket{5S_{1/2}, F=2}$ where they enter in the optical pumping system. 
+
+\begin{figure}[t]
+    \includegraphics[width=0.8\linewidth]{OpticalPumpingScheme}
+    \centering
+    \caption{Optical pumping scheme to initialize the qubits in the $\ket{5S_{1/2}, F=2, m_{f}=2}$ state.}
+    \label{OpticalPumping}
+\end{figure}
+
+THe diagnostics is performed with 
+
+
+
 
 \end{document}
