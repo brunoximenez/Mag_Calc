@@ -32,7 +32,7 @@ def calc_mod(b):
 
 def B_array(coll, distance):
     # Distances in mm
-    dx = 0.5
+    dx = 200.
     n_points = 100
     z = np.array([])
     b = np.array([])

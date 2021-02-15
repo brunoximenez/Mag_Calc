@@ -22,10 +22,10 @@ plt.rcParams['text.latex.preamble'] = [
 # Create coils
 # Dimension is the diameter in mm
 # Current in amps
-radius = 40.
+radius = 35.
 current = 20.
-n_coils = 4
-distance = 2 * radius
+n_coils = 8
+distance = 38. 
 
 for i in range(1):
     dl = i * 2.
@@ -36,16 +36,17 @@ for i in range(1):
 
 # sys.exit()
 # calculate B-field on a grid
-ptx = 100
-ptz = 100
-xs = np.linspace(-100, 100, ptx)
-zs = np.linspace(-100, 100, ptz)
+ptx = 50
+ptz = 50
+xs = np.linspace(-300, 300, ptx)
+zs = np.linspace(-300, 300, ptz)
 POS = np.array([(x, 0, z) for z in zs for x in xs])
 
 Bs = coll.getB(POS).reshape(ptz, ptx, 3)  # <--automatically vectorized
 
 B_center = coll.getB([0, 0, 0])
-plt.show()
+# plt.show()
+
 # sys.exit(0)
 # create figure
 fig = plt.figure(figsize=(9, 5))
