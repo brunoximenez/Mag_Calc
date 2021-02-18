@@ -217,6 +217,46 @@ Considering higher fields, then the Zeeman Hamiltonian will mix the states of F 
 \clearpage
 \newpage
 
+
+
+\section{Light shift on the atomic levels}
+
+The trap lasers will perturb on the level of 1-10 MHz the atomic levels and hence the transitions. In this section I calculate the shift on the relevant states. Starting by the Hamiltonian of the system:
+
+\begin{equation}
+ 	\mathcal{H}_{I} = e \vec{r} \cdot \vec{\epsilon}_{q} \mathcal{E}_{0}
+ \end{equation} 
+where q represents the polarization state of the trapping photons. From second order perturbation theory, the energy levels will be shifted by (energy shift already in Hz):
+
+\begin{equation}
+	\Delta \mathcal{E}_{i} = \sum_{j} \frac{\bra{j}\mathcal{H}_{I} \ket{i} }{ h (\nu_{i} - \nu_{j})}
+\end{equation}
+
+Now we can use the Wigner-Eckart theorem to break the calculation of the dipole matrix elements in several components:
+
+\begin{equation}
+	\bra{F', m_{f'}} er_{q} \ket{F, m_{f}} = \bra{F'} er_{q} \ket{F} \bra{F', m_{f'}} \ket{F, 1, m_{f} q}
+\end{equation}
+
+consisting of the reduced matrix and the Clebsch-Gordon coefficients, which can be written in terms of 3-j symbol:
+
+...
+
+\begin{equation}
+	\Delta \mathcal{E}_{F m_{f}} = \frac{\mathcal{E}^{2}_{0}} {4h} \sum_{F', m_{f'}} \frac{\bra{F' m_{f'}} er_{q} \ket{F m_{f}} ^{2} }{ \nu_{laser} - (\nu_{F' m_{f'}} - \nu_{F m_{f}})}
+\end{equation}
+
+And the field amplitude can be calcuated in terms of laser power and waist:
+
+\begin{equation}
+	I = \frac{2P}{\pi \omega^{2}_{0}}
+\end{equation}
+and
+\begin{equation}
+	\mathcal{E}^{2}_{0} = \frac{2I}{\epsilon_{0} c}
+\end{equation}
+\clearpage
+\newpage
 \section{Quantum state preparation -- Optical pumping}
 
 The goal is to initialize the qubits in a given state. Considering optical pumping techniques, it is chosen to prepare the atoms in the state $\ket{5S_{1/2}, F,m_{f} = 2,2}$ and the pumping scheme is shown on figure \ref{OpticalPumping}. The experiment starts with the atoms populating all the Zeeman levels in the ground hyperfine states. The optical pumping laser at 780 nm is prepared such that it addresses $\sigma^{+}$ transitions from $\ket{5S_{1/2}, F=2}$ $\rightarrow$ $\ket{5P_{3/2}, F=2}$ with $\Delta m_{f} = +1$. In this way, when the an atom populate the level $\ket{5S_{1/2}, F=2, m_{f}=2}$, the laser-atom interaction is stopped, avoiding unneccessary heating. 
