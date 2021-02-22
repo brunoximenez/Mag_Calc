@@ -4,3 +4,4 @@
 \contentsline {section}{\numberline {3}{Zeeman effect on $^{87}$Rb}}{6}{section.3}%
 \contentsline {section}{\numberline {4}{Light shift on the atomic levels}}{8}{section.4}%
 \contentsline {section}{\numberline {5}{Quantum state preparation -- Optical pumping}}{9}{section.5}%
+\contentsline {section}{\numberline {6}{Absolute frequency of various transitions}}{10}{section.6}%

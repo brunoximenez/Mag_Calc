@@ -272,7 +272,42 @@ The atoms initially populated in the $\ket{5S_{1/2}, F=1}$ are not excited by th
 
 The diagnostics is performed with a two-photons Raman transition connecting the qubit states with a 600 MHz detuning from the $5P_{1/2}$ transition at 795 nm. The scheme is shown on figure \ref{OpticalPumping}.
 
+\clearpage
+\newpage
+\section{Absolute frequency of various transitions}
 
+\begin{center}
+ \begin{tabular}{||c c c||} 
+ \hline
+ $\ket{5S_{1/2}, F=2, mf=2} \rightarrow \ket{5P_{3/2}, F=3, mf=3}$ & $B=0$; $P_{L}=0$ &  384,228,115 MHz  \\ 
+ \hline
+ $\ket{5S_{1/2}, F=2, mf=2} \rightarrow \ket{5P_{3/2}, F=3, mf=3}$ & $B=0$; $P_{L}=5$ mW &  384,228,139 MHz \\ 
+ \hline
+  $\ket{5S_{1/2}, F=2, mf=2} \rightarrow \ket{5P_{3/2}, F=3, mf=3}$ & $B=20$ G; $P_{L}=5$ mW &  384,228,167 MHz \\ 
+  \hline
+   $\ket{5S_{1/2}, F=2, mf=x} \rightarrow \ket{5P_{3/2}, F=2, mf=x+1}$ & $B=0$; $P_{L}=0$ &  384,227,848 MHz  \\ 
+ \hline
+ $\ket{5S_{1/2}, F=2, mf=x} \rightarrow \ket{5P_{3/2}, F=2, mf=x+1}$ & $B=0$; $P_{L}=5$ mW &  384,227,879 MHz \\ [1ex]
+ \hline
+\end{tabular}
+\end{center}
+
+The Zeeman shift on the transitions is given by, in MHz:
+
+\begin{equation}
+	\delta \nu = (0.93 m_{f_{e}} - 0.7 m_{f_{g}} ) B
+\end{equation}
+
+For the pushout this leads simply to $1.39$ MHz / Gauss. For the optical pumping transitions in a magnetic field, there will be 4 possible transitions given by:
+
+\begin{equation}
+ 	\delta \nu = (0.93 - 0.23 m_{f_{g}} ) B
+ \end{equation} 
+
+If we consider the difference between the two extreme transitions, they will be splitted by 0.69 MHz / Gauss. For 20 Gauss, the various resonances will be spread over 14 MHz.
+
+
+The magnetic field / current is estimated to be 1.15 Gauss / A.
 
 
 \end{document}
